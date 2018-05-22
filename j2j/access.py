@@ -2,7 +2,7 @@
 
 from copy import deepcopy
 
-from errors import Errors
+from .errors import Errors
 
 
 class AccessElementJson(object):
