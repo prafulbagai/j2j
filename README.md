@@ -95,13 +95,15 @@ For the above applied `rules`, following changes will be made.
 
 * Create a separate `rules.json` file, read it and then pass the `loaded` json to the function.
 
-* Set `base_elem` as root element `\`.
+Use the following settings for the time-being. Working on their implementations.
 
-* Set `keep_others` as `True`.
+* `base_elem` as root element `\`.
 
-* Set `make_base` as `True`.
+* `keep_others` as `True`.
 
-* Set `base_elem` as root element `\`.
+* `make_base` as `True`.
+
+* `base_elem` as root element `\`.
 
 
 ## TODO ##

@@ -2,9 +2,10 @@
 
 import json
 
-from jsonutils.test.testbase import TestBase
-from jsonutils import AccessElementJson
-from jsonutils import ConvertJson
+from j2j.test.testbase import TestBase
+
+from j2j import ConvertJson
+from j2j.access import AccessElementJson
 
 
 class TestConvert(TestBase):
@@ -42,8 +43,8 @@ class TestConvert(TestBase):
 if __name__ == '__main__':
     TCVTR = TestConvert()
     ACCESS_J = AccessElementJson()
-    CVR_J = ConvertJson(ACCESS_J)
+    CVR_J = ConvertJson()
     TCVTR.test0001(CVR_J)
-    print "Case1 Passed"
+    print ("Case1 Passed")
     TCVTR.test0004(CVR_J)
-    print "Case2 Passed"
+    print ("Case2 Passed")
