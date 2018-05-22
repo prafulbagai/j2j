@@ -1,5 +1,5 @@
 # J2J #
-***
+
 > J2J is a rule engine library that helps in converting one form of JSON into another by applying some rules on top of the input JSON.
 
 J2J is a thin layer that sits on top of the application layer converting the input JSON into the expected JSON. It'll be helpful when the request data POSTed on to the server is different from what the application expects.
@@ -10,12 +10,10 @@ J2J is a thin layer that sits on top of the application layer converting the inp
 > CHANGING YOUR APIs** for a specific business partner.
 
 ## Installation ##
-***
 
     pip install j2j
 
 ## Quick start ##
-***
 
 
     import j2j
@@ -58,7 +56,6 @@ J2J is a thin layer that sits on top of the application layer converting the inp
 
 
 ## Configuration ##
-***
 
 ### Splitters
 
@@ -95,7 +92,7 @@ For the above applied `rules`, following changes will be made.
     3) `k3.newa` means a new key `newa` will be created inside `k3` having value `k3.a`.
 
 ## Recommendations
-***
+
 * Create a separate `rules.json` file, read it and then pass the `loaded` json to the function.
 
 * Set `base_elem` as root element `\`.
@@ -108,7 +105,6 @@ For the above applied `rules`, following changes will be made.
 
 
 ## TODO ##
-***
 * Apply multiple rules on the same input JSON. (Work in Progress)
 
 * `keep_others` when base element is root (`\`).
@@ -117,7 +113,6 @@ For the above applied `rules`, following changes will be made.
 
 
 ## Contribution Guidelines
-***
 
 * Writing tests - Always welcome to improve on this.
 
