@@ -1,0 +1,16 @@
+{
+    "rules": [
+        {
+            "base_elem": "/",
+            "changes": {
+                "newk1": "k1",
+                "newk4": "k4@1",
+                "newk5.inner": "k5",
+                "check@$": "k3"
+            },
+            "keep_others": true,
+            "make_base": true,
+            "new_key_elem": "/"
+        }
+    ]
+}

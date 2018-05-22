@@ -1,0 +1,14 @@
+{
+    "rules": [
+        {
+            "base_elem": "menu.popup.menuitem@*",
+            "changes": {
+                "clickitem": "onclick",
+                "data.value": ["value", "gravity"]
+            },
+            "keep_others": "True",
+            "make_base": "True",
+            "new_key_elem": "/"
+        }
+    ]
+}
